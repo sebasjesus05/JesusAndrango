@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="index.html">Jesús Andrango</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/jesus.jpg" alt="">
+            </div>
+            <h1>Jesús Andrango</h1>
+            <h2>Tecnólogo en Desarrollo de Software</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jes%C3%BAs-andrango-herrera/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/sebasjesus05" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:sebas_andrango@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jesús Andrango.</span> Egresado de la carrera de Tecnología Superior en Desarrollo de Software, cuento con conocimientos en el área de la informática. Soy una persona responsable, eficiente y puntual, me gusta estar en constante aprendizaje y tengo una gran capacidad de adaptación al entorno, así como al trabajo en equipo.</p>
+          
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Edad</strong>
+                            28
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            0981442983
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            sebas_andrango@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            En construcción
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Ecuador - Guayaquil
+                        </li>
+                        <!--<li>
+                            <strong>Cargo</strong>
+                            <span>#</span>
+                        </li>-->
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://guayastecadmin-my.sharepoint.com/:f:/g/personal/jesus-andrango-ene_guayastec_edu_ec/EtNXpFS-1LJImev5Fj6YhZwBwgVTc8dlWjYInojyCdAd7A?e=aHXeja" target="_blank"> 
+                <button>Descargar CV<i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+            </button>
+        </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Laravel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Django</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnología Superior en Desarrollo de Software</h4>
+                        <span class="casa">Instituto Superior Tecnológico Guayaquil</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>> Analizar los requerimientos del usuario mediante metodologías de desarrollo de software.</p>
+                        <p>> Diseñar la interfaz del usuario, estructura del sistema y la base de datos, basado en el análisis de requerimientos.</p>
+                        <p>> Codificar en un lenguaje de programación los algoritmos acordes al diseño elaborado.</p>
+                        <p>> Implementar el software elaborado en el ambiente de trabajo.</p>
+                        <p>> Administrador y programador de Bases de Datos.</p>
+                        <p>> Programador de aplicaciones de escritorio para negocios y empresas.</p>
+                        <p>> Programador de aplicaciones web.</p>
+                        <p>> Programador de aplicaciones móviles.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller técnico en Aplicaciones Informática</h4>
+                        <span class="casa">Unidad Educativa Físcal Vicente Rocafuerte</span>
+                        <span class="fecha">2007 - 2013</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Técnico Informático</h4>
+                        <span class="casa">Autónomo</span>
+                        <span class="fecha">Abril 2019 - Actualidad</span>
+                        <p>· Armar y reparar equipos de cómputo.</p>
+                        <p>· Instalar y configurar sistemas operativos.</p>
+                        <p>· Mantenimiento preventivo de hardware y software.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ayudante Técnico</h4>
+                        <span class="casa">Serviasertiva S.A</span>
+                        <span class="fecha">Enero 2016 - Marzo 2019</span>
+                        <p>· Coordinar con el cliente la visita para realizar la respectiva instalación o retiro del servicio del GRUPO TVCABLE (Tv pagada, internet y telefonía)</p>
+                        <p>· Instalar el o los servicios del GRUPO TVCABLE que requiere el cliente en su domicilio o negocio</p>
+                        <p>· Retirar el o los equipos que solicito el cliente.</p>
+                        <p>· Registrar en el sistema el informe final de las instalaciones, devoluciones de equipos y material que se usó en la jornada laboral.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Trabajador de Producción</h4>
+                        <span class="casa">Industrial Pesquera Santa Priscila S.A</span>
+                        <span class="fecha">Junio 2015 - Agosto 2015</span>
+                        <p>· Ejecutar el trabajo asignado por el supervisor que es de empacar, descabezar, y estibar</p>
+                        <p>· Mantener la limpieza del área de trabajo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar de Operaciones</h4>
+                        <span class="casa">Consorcio Transvía S.A</span>
+                        <span class="fecha">Enero 2014 - Enero 2015</span>
+                        <p>· Registrar en el sistema los nombres del supervisor, coordinadores, conductores de turno y el número total de buses activos para el inicio de operaciones del Sistema Integrado de Transporte Masivo Urbano de Guayaquil (Metrovía).</p>
+                        <p>· Supervisar los respectivos tiempos de salida y llegada de los buses del Sistema Integrado de Transporte Masivo Urbano de Guayaquil (Metrovía).</p>
+                        <p>· Informar de manera inmediata las incidencias al operador de transporte.</p>
+                        <p>· Elaborar un informe detallado de todas las incidencias que se produjeron en la jornada laboral.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <!--<section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>CURSOS</h2>
+            <span class="casa">Fundación Telefónica Movistar Ecuador - Ministerio de Trabajo</span>
+            <p>> Ciberseguridad - 150 Horas</p> 
+            <p>> Diseño Web con HTML5 + CSS - 30 Horas</p> 
+            <p>> Programación con JavaScript - 40 Horas</p>
+            
+            <span class="casa">Cisco Networking Academy</span>
+            <p>> Cybersecurity Pathway - 160 Horas</p> 
+            <p>> PCAP - Programming Essentials in Python - 75 Horas</p> 
+            <p>> Get Connected - 40 Horas</p>
+
+            <span class="casa">Universidad Particular de Loja - Educación Continua</span>
+            <p>> Asistencia Técnica Informática - 40 Horas</p> 
+
+            <span class="casa">Guayastec Prefectura de Guayas - Microsoft</span>
+            <p>> Excel Avanzado - 30 Horas</p>
+            
+        </div>
+
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <form action="https://formsubmit.co/sebas_andrango@hotmail.com" method="POST">
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre" name="name">
+                    <input type="text" placeholder="Número telefónico" name="phone">
+                    <input type="text" placeholder="Dirección de correo" name="email">
+                    <input type="text" placeholder="Tema" name="tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span> 
+                    </button>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+                </div>
+                <!-- Mapa -->
+                <!--<div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+            </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jes%C3%BAs-andrango-herrera/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/sebasjesus05" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:sebas_andrango@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div><h3>Todos los derechos. Copyright © 2023 Diseñado por Jesús Andrango</h3></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
